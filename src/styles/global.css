@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@plugin '@tailwindcss/typography';
+
+@theme inline {
+	--font-sans: var(--font-geist);
+}
+
+body{
+  margin: 2em
+}
+/* .heroVideo {
+  /* position:fixed;  */
+  /* min-width: 100%  */
+  /* bottom: 0; */
+  /* padding: 2em; */
+/* } */
+
+/* video{
+	width: fit-content;
+} */
+#homeNav a{
+	margin: 0 5px;
+}
+
+.video-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: hidden;
+}
+.video-container video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 130vw; 
+  min-height: 100%; 
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  width: auto;
+  height: auto;
+
+  /* Center the video */
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,0%);
+}
+
+/* @media only screen and (min-width: 768px) {
+    video {
+      min-width: 150vw; 
+    }
+} */
+
+/* hidden on default */
+div#popup { display: none; }
+
+/* use a media query to filter small devices */
+@media only screen and (max-device-width:768px) {
+    /* show the popup */
+    div#popup { display: block; }
+    .video-container video {display: none;}
+}
