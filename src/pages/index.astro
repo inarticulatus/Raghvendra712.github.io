@@ -3,9 +3,10 @@ import H1 from "../components/h1.astro";
 import Link from "../components/link.astro";
 import Navigation from "../components/navigation";
 import RootLayout from "../layouts/RootLayout.astro";
-// import WarpBackground from "../components/warp-background";
 import AvailableForWork from "../components/available.astro";
 import VidBackground from "../components/vid-background.astro";
+import VideoMuteToggle from "../components/VideoMuteToggle.tsx";
+
 ---
 
 <RootLayout>
@@ -31,6 +32,14 @@ import VidBackground from "../components/vid-background.astro";
 					<br/>
 					<H1 size="default"> Writer <br/> Editor <br/> Director</H1>
 				</div>
+			
+			<div class="p-8" style="position: fixed; right: 2em; top; 2em;">
+					<VideoMuteToggle
+					client:load
+					videoId="myVideo"
+					className="w-9 h-9 rounded-full text-gray-200"
+					/>
+			</div>
 
 				<div>
 					<AvailableForWork className="py-4" />
