@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@astrojs/react": "^4.2.5",
-    "@astrojs/vercel": "^8.1.4",
+    "@astrojs/vercel": "^8.0.4",
     "@paper-design/shaders-react": "^0.0.29",
     "@tailwindcss/vite": "^4.1.4",
     "@types/react": "^19.1.2",
@@ -23,11 +23,24 @@
     "react-dom": "^19.1.0",
     "sharp": "^0.34.1",
     "tailwindcss": "^4.1.4",
-    "tinacms": "^2.8.2"
+    "tinacms": "^2.1.1"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.16",
     "@tinacms/cli": "^1.10.2",
     "@types/node": "^24.3.0"
-  }
+  },
+  "description": "Portfolio is an Astro template built with of course Astro 5.7, React 19 and TailwindCSS 4",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inarticulatus/Raghvendra712.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inarticulatus/Raghvendra712.github.io/issues"
+  },
+  "homepage": "https://github.com/inarticulatus/Raghvendra712.github.io#readme"
 }
