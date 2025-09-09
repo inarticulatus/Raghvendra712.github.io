@@ -1,8 +1,8 @@
 ---
-email: rvd@gmail.com
+email: raghvendra.singh1r@gmail.com
 social: |
   * [Instagram](https://instagram.com/)
-  * [Youtube Portfolio](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+  * [Linkedin](https://www.linkedin.com/in/raghvendra-singh-6b3793212/)
 address: |
   Rajasthan
   India
